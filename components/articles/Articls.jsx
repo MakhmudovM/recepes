@@ -1,11 +1,9 @@
-import { Outlet } from "react-router-dom"
-import { Link } from "react-router-dom"
+import React from 'react'
 
-
-function ReceptLayout() {
+function Articls() {
   return (
     <div>
-        <h2 style={{textAlign:"center"}}>Recepts</h2>
+         <h2 style={{textAlign:"center"}}>Recepts</h2>
         <hr />
         <Outlet/>
         <ul className="list">
@@ -40,4 +38,4 @@ function ReceptLayout() {
   )
 }
 
-export default ReceptLayout
+export default Articls

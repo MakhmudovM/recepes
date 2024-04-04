@@ -36,7 +36,38 @@ a{
   text-decoration: none;
   color: #213547;
 }
+ul,ol{
+  list-style: none;
+}
+.items{
+  
+  text-align: center;
+}
 
+.list{
+  display: flex;
+  gap: 30px;
+}
+
+.wrapper{
+  border: 3px solid #213547;
+  padding: 5px;
+  border-radius: 15px;
+}
+.btn{
+  
+  background-color: #6cc41a;
+  padding: 5px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.item-text{
+  font-size: 20px;
+  font-weight: 600;
+  
+}
 
 
 
