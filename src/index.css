@@ -1,19 +1,52 @@
-.navbar{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
 
-  nav{
-    display: flex;
-    gap: 15px;
-  }
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .container{
   width: 100%;
   max-width: 900px;
-  margin-left: auto;
   margin-right: auto;
+  margin-left: auto;
   padding-left: 30px;
   padding-right: 30px;
+}
+.navabar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav{
+  display: flex;
+  gap: 15px;
+}
+
+a{
+  text-decoration: none;
+  color: #213547;
+}
+
+
+
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
 }

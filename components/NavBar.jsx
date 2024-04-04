@@ -1,15 +1,19 @@
+//rfce
+import { Link } from "react-router-dom"
 
-function NavBar() {
+
+
+function Navbar() {
   return (
-    <div className="navbar">
-    <h1>Articlas</h1>
-    <nav>
-      <a href="">Home</a>
-      <a href="">About</a>
-      <a href="">Contact</a>
-    </nav>
-  </div>
+    <div className="navabar">
+        <h1>Recepts</h1>
+        <nav className="nav">
+            <Link to="/">Home</Link>
+            <Link to="/about">About</Link>
+            <Link to="/contact">Contact</Link>
+        </nav>
+    </div>
   )
 }
 
-export default NavBar
+export default Navbar
